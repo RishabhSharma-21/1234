@@ -1,0 +1,263 @@
+body{
+    overflow-x: hidden;
+    background-image: url(https://imgs.search.brave.com/4DZeYQKaijut_FI3YrrIW1yyCcUcWsW-kJVFggoDDZk/rs:fit:1200:900:1/g:ce/aHR0cHM6Ly9yZXMu/YWxsbWFjd2FsbHBh/cGVyLmNvbS9nZXQv/TWFjQm9vay1BaXIt/MTMtaW5jaC13YWxs/cGFwZXJzL0JsdXJy/ZWQtUHVycGxlLTE0/NDB4OTAwLzU2OS00/LmpwZw);
+    background-repeat: no-repeat, repeat;
+background-size: cover;}
+
+
+
+.mynavbar{
+    border-radius: 0px 0px 15px 15px ;
+}
+
+.navbarin{
+    padding: 5px 900px 5px 21px;
+}
+
+.nav-it{
+    float: right;
+}
+
+.navhover{
+    color: rgb(48, 48, 48);
+}
+
+.navhover:hover{
+    color: rgb(255, 255, 255);
+}
+
+.p {
+    /* background: -webkit-linear-gradient(rgb(255, 0, 0), rgba(195, 0, 255, 0.712), rgba(255, 238, 0, 0.774),  rgb(198, 11, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color: wheat;
+    font-size: 60px;
+    margin: 0% 0% 0% 5%;
+    padding:  5% 0% 0% 5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: 3px black;
+
+}
+
+.butup{
+    text-align: center;
+    border-radius: 7px;
+    height: 50px;
+    width: fit-content;
+    margin: 0px 5px 50px 150px;
+    color: black;    
+    transition: 0.7s;
+}
+
+
+.img{
+width: 300px;
+height: 300px;
+float: right;
+margin: 100px 50px 0px 0px;
+}
+
+.section{
+    padding: 3%;
+    margin-bottom: 5%;  
+    border-radius: 10px;
+}
+
+#testimonials{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.carousel-item{
+    padding: 5% 15%;
+    color: black;
+}
+
+.carousel-item:hover{
+    color: white;
+    transition: 1s;
+}
+
+.ri{
+    padding-top: 25%;
+    margin-left: 60%;
+    text-align: justify;
+}
+
+.carousel-image{
+    float: left;
+    border-radius: 10px;
+
+}
+
+.founder{
+    text-align: center;
+    color: white;
+    
+
+}
+
+.founder h2{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: 3px black;
+}
+
+.founder h5{
+    color: white;
+    
+}
+.founder img{
+    border-radius: 11%;
+    height: 5%;
+    width: 30%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 5%;
+    padding: 1%;
+    color: white;
+    width: 100%;
+}
+
+.footer i{
+    margin: 0px 5px;
+    margin-bottom: 15px;
+}
+
+.link-light:hover{
+    color: rgb(52, 52, 255);
+    transition: 0.5s;
+}
+
+.but{
+    border-radius: 7px;
+    height: 50px;
+    width: fit-content;
+    margin: 10px 5px;
+    color: black;    transition: 0.7s;
+}
+
+@media (max-width:989px){
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .ri{
+        margin-left: 0%;
+        margin-top: 110%;
+    }
+
+    .carousel-image{
+        text-align: center;
+        padding-left: 10%;
+        width: 90%;
+    }
+
+    .carousel-item{
+        padding: 5% 15%;
+        color: black;
+  
+    }
+
+    .carousel-item:hover{
+        color: white;
+        transition: 1s;
+    }
+
+    .img{
+        text-align: center;
+        margin-bottom: 5%;
+        margin-top: 2%;
+
+    }
+
+    .butup{
+        border-radius: 7px;
+        height: 50px;
+        width: fit-content;
+        margin: 0px 5px 50px 200px;
+        color: black;    
+        transition: 0.7s;
+    }
+
+    .navbarin{
+        padding: 5px 5px 5px 21px;
+    }
+    
+    .founder img{
+        border-radius: 11%;
+        width: 30%;
+        padding-top: 2%;
+        padding-bottom: 3%;
+    }
+}
+
+@media (max-width:748px){
+
+    .mynavbar{
+        margin: 0%;
+    }
+
+    .navbarin{
+        padding: 0% 5%;
+    }
+
+    .p{
+       text-align: left;
+       font-size: 0px;
+    }
+
+    .img{
+        height: 200px;
+        width: 200px;
+        text-align: center;
+        margin: 0% 21% 10% 0%;
+    }
+
+    .butup{
+        margin: 0% 5.2%;
+        font-size: 15px;
+    }
+
+    .but{
+        font-size: 15px;
+    }
+
+    .section{
+        height: fit-content;
+        width: fit-content;
+        text-align: justify;
+        font-size: smaller;
+        margin: 3% 0%;
+        padding: 3%;
+    }
+
+    .carousel-image{
+        height: 200px;
+        width: 200px;
+        padding: 0%;
+
+    }
+
+    .ri{
+        font-size: small;
+        text-align: justify;
+        margin: 100% 0% 0% 0%;
+        color: aliceblue;
+    }
+
+    #testimonials h2{
+        margin: 10% 0%;
+        font-size: medium;
+        text-align: justify;
+    }
+
+    .b{
+        visibility: hidden; 
+    }
+}
