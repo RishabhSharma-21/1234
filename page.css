@@ -239,7 +239,7 @@ margin: 100px 50px 0px 0px;
 
     .carousel-image{
         height: 200px;
-        width: 200px;
+        width: 170px;
         padding: 0%;
 
     }
@@ -258,6 +258,6 @@ margin: 100px 50px 0px 0px;
     }
 
     .b{
-        visibility: hidden; 
+        padding: 6%; 
     }
 }
